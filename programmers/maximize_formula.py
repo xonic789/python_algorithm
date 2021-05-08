@@ -19,7 +19,7 @@ per = ['*', '-', '+']
 pm = list(map(''.join, permutations(per)))
 print(pm)
 temp = []
-result = []
+result = []t
 lt = 0
 for rt in range(len(expression)):
     if expression[rt] == '*' or expression[rt] == '-' or expression[rt] == '+':

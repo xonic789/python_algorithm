@@ -6,7 +6,7 @@ answer = 0
 
 queue = deque([(v, i) for i, v in enumerate(priorities)])
 
-while len(queue):
+while queue:
     printed = queue.popleft()
     if queue and max(queue)[0] > printed[0]:
         queue.append(printed)
