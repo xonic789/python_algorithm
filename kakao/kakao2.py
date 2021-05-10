@@ -50,7 +50,15 @@ def solution(places):
     return answer
 
 
-print(solution([["POOOP", "OXXOX", "OPXPX", "OOXOX", "POXXP"], ["POOPX", "OXPXP", "PXXXO", "OXXXO", "OOOPP"], ["PXOPX", "OXOXP", "OXPXX", "OXXXP", "POOXX"], ["OOOXX", "XOOOX", "OOOXX", "OXOOX", "OOOOO"], ["PXPXP", "XPXPX", "PXPXP", "XPXPX", "PXPXP"]]))
+print(solution([["POOOP",
+                 "OXXOX",
+                 "OPXPX",
+                 "OOXOX",
+                 "POXXP"],
+                ["POOPX", "OXPXP", "PXXXO", "OXXXO", "OOOPP"],
+                ["PXOPX", "OXOXP", "OXPXX", "OXXXP", "POOXX"],
+                ["OOOXX", "XOOOX", "OOOXX", "OXOOX", "OOOOO"],
+                ["PXPXP", "XPXPX", "PXPXP", "XPXPX", "PXPXP"]]))
 
 
 
