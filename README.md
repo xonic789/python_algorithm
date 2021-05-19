@@ -1,2 +1,2 @@
 # Algorithm
-- Lang : phython
+- Lang : python
